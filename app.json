@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Tution-App:Student",
+    "slug": "tution-app-s",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/login.png",
+    "splash": {
+      "image": "./assets/splashS.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package":"com.tutionS.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
